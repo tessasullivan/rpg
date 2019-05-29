@@ -1,7 +1,7 @@
 {
-  "name": "webpack",
+  "name": "rpg",
   "version": "1.0.0",
-  "description": "Ping pong counter",
+  "description": "Create RPG characters",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
