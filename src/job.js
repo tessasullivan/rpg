@@ -1,6 +1,6 @@
-import { Player } from './player.js';
+import { Entity } from './Entity';
 
-export class Wizard extends Player {
+export class Wizard extends Entity {
 
   constructor(name) {
 
@@ -27,7 +27,7 @@ export class Wizard extends Player {
   }
 }
 
-export class Warrior extends Player {
+export class Warrior extends Entity {
 
   constructor(name) {
     

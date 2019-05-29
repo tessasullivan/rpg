@@ -1,4 +1,4 @@
-export class Player {
+export class Entity {
 
   constructor(name){
     this.name = name;
@@ -11,7 +11,7 @@ export class Player {
     this.vit = 10 //+ job.vit + race.vit,
 
     this.health = 100 + this.vit;
-    this.skill = 100;
+    this.skillpoints = 100;
     // this.race = race;
     // this.job = job;
   }
